@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSIB GITS Tugas 2</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="container">
+        <div class="container__card">
+            <div class="container__card__title">
+                <span>HITUNG NILAI RATA - RATA</span>
+            </div>
+            <div class="container__card__body">
+                <div class="container__card__body__item">
+                    <label for="">Nama:</label>
+                    <input id="name" type="text" />
+                </div>
+                <div class="container__card__body__item">
+                    <label for="">Mata Kuliah:</label>
+                    <input id="course" type="text" />
+                </div>
+                <div class="container__card__body__item-select">
+                    <label for="">Grade:</label>
+                    <select id="grade">
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                        <option value="E">E</option>
+                    </select>
+                </div>
+                <button onclick="calculate()">Hitung</button>
+            </div>
+            <div class="container__card__table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nama</th>
+                            <th>Mata Kuliah</th>
+                            <th>Grade</th>
+                            <th>Nilai Rata - Rata</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
